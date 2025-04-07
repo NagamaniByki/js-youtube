@@ -5,7 +5,7 @@ console.log(typeof(score))
 
 let valueInNumber = Number(score)
 console.log(typeof valueInNumber)
-console.log(valueIntNumber)
+console.log(valueInNumber)
 
 
 // "33" => 33
@@ -14,7 +14,7 @@ console.log(valueIntNumber)
 
 let isLoggenIn = 1
 
-let booleanIsLoggedIn = Boolean(isLoggedIn)
+let booleanIsLoggedIn = Boolean(isLoggenIn)
 console.log(booleanIsLoggedIn)
 
 // 1=> true; 0 => false
@@ -27,3 +27,36 @@ let stringNumber = String(someNumber)
 console.log(stringNumber)
 console.log(typeof(stringNumber))
 
+// ***********************Operations ***********************
+
+let value = 3
+let negValue = -value
+console.log(negValue)
+
+console.log(2+2)
+console.log(2-2)
+console.log(2*2)
+console.log(2**2)
+console.log(2%3)
+
+let srt1 = "javascript"
+let str2 = " learning"
+
+let str3 = srt1+str2
+console.log(str3)
+
+console.log("1" + 2)
+console.log(1 + "2")
+console.log("1" + 2 +2)
+console.log( 1 + 2 +"2")
+
+console.log(+true)
+console.log(+"")
+
+//increment and decrement
+
+let num = 100
+num++
+console.log(num)
+num--
+console.log(num)
